@@ -8,7 +8,7 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         
-        <h1 className="bold-52 lg:bold-88">Black Queen Massage and Escort</h1>
+        <h1 className="bold-52 lg:bold-88 ">Black Queen Massage and Escort</h1>
         <p className="regular-16 mt-6  xl:max-w-[520px]">
           Black Queen Massage and Escort offers expert massage, 
           facial and hair removal services seven days a week for your convenience.
@@ -35,6 +35,18 @@ const Hero = () => {
           </p>
         </div>
 
+              <div>
+                <span className='text-purple-90 text-2xl'>Massage Services*</span>
+                <ul className='list-disc ml-8'>
+                  <li>MASSAGE (1 Hours)</li>
+                  <li>MASSAGE (1.5 Hours)</li>
+                  <li>HOT STONE MASSAGE (1 Hour)</li>
+                  <li>HOT STONE MASSAGE (1.5 Hours)</li>
+                  <li>COUPLES MASSAGE (1 Hours)</li>
+                  <li>COUPLES MASSAGE (1.5 Hours)</li>
+                  <li>COLD STONE FACE MASSAGE (30min.)</li>
+                </ul>
+              </div>
        
       </div>
     </section>

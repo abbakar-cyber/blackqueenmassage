@@ -5,7 +5,7 @@ import Button from "./Button"
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="flexBetween max-container padding-container  z-30 py-5 relative">
       <Link href="/">
         <Image src="/bqms-logo.svg" alt="logo" width={90} height={29} />
       </Link>
