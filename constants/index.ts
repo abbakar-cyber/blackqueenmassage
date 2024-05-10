@@ -16,28 +16,28 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Signature Facials',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Few contents here',
   },
   {
-    title: 'Set an adventure schedule',
+    title: '1 Hour Exceptional facial',
     icon: '/calendar.svg',
     variant: 'green',
     description:
       "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
   },
   {
-    title: 'Technology using augment reality',
+    title: '1 Hour Exceptional Exfoliation',
     icon: '/tech.svg',
     variant: 'green',
     description:
       'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
   },
   {
-    title: 'Many new locations every month',
+    title: '30-Minute Skin treatments',
     icon: '/location.svg',
     variant: 'orange',
     description:
@@ -51,17 +51,11 @@ export const FOOTER_LINKS = [
     title: 'Learn More',
     links: [
       'About Us',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
+      
       'Contact Us',
     ],
   },
-  {
-    title: 'Our Community',
-    links: ['Climbing ', 'Hiking'],
-  },
+ 
 ];
 
 export const FOOTER_CONTACT_INFO = {
@@ -79,6 +73,6 @@ export const SOCIALS = {
     '/instagram.svg',
     '/twitter.svg',
     '/youtube.svg',
-    '/wordpress.svg',
+    
   ],
 };

@@ -37,7 +37,7 @@ const Hero = () => {
               <div>
                 <span className='text-purple-90 text-2xl'>MASSAGE SERVICES*</span>
                 <p>Choose from: Swedish, Deep tissue, Trigger point, Sports, Prenatal and More:</p>
-                <ul className='list-disc ml-8'>
+                <ul className='list-disc ml-8 py-6'>
                   <li>MASSAGE (1 Hours)</li>
                   <li>MASSAGE (1.5 Hours)</li>
                   <li>HOT STONE MASSAGE (1 Hour)</li>
