@@ -5,19 +5,34 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/camp.svg" alt="camp" width={50} height={50} />
-        <p className="uppercase regular-18 -mt-1 mb-3 text-purple-50">
-          We are here for you
-        </p>
+        
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Guide You to Easy Path</h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, veniam commodi, nesciunt tempora, odit autem iure nisi molestias eum et iusto. Qui laborum sit cupiditate quasi unde quisquam ipsam. Modi itaque est commodi. Culpa voluptate laudantium voluptates dolor dolores architecto reiciendis ad corporis sint earum totam eos id temporibus, possimus iusto eius ipsam veniam ducimus eaque deleniti et labore sequi! Asperiores assumenda enim consectetur fugiat tempora reprehenderit eum excepturi quod.</p>
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">HAIR REMOVAL ENHANCEMENTS*</h2>
+          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+            Black Queen Massage and Escorts offers professional, 
+            convenient and affordable face and body hair removal services for 
+            <strong> WOMEN</strong> and <strong>MEN</strong>. All services provided by licensed esthicians
+            using our botanically based wax-free system. It includes:
+          </p>
+          <ul className='list-disc ml-8'>
+            <li>EYEBROWS</li>
+            <li>LIP OR CHIN</li>
+            <li>FULL FACE</li>
+            <li>UNDERARMS</li>
+            <li>ARMS HALF</li>
+            <li>ARMS FULL</li>
+            <li>LEGS HALF</li>
+            <li>LEGS FULL</li>
+            <li>BACK OR CHEST</li>
+            <li>BIKINI</li>
+            <li>BRAZILIAN</li>
+          </ul>
         </div>
       </div>
 
       <div className="flexCenter max-container relative w-full">
         <Image 
-          src="/boat.png"
+          src="/bg-bg-img.jpg"
           alt="boat"
           width={1440}
           height={580}
@@ -35,15 +50,15 @@ const Guide = () => {
           <div className="flexBetween flex-col">
             <div className='flex w-full flex-col'>
               <div className="flexBetween w-full">
-                <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-purple-50">48 min</p>
+                <p className="regular-16 text-gray-20">Hot stone </p>
+                <p className="bold-16 ">1 hour</p>
               </div>
-              <p className="bold-20 mt-2">Aguas Calientes</p>
+              <p className="bold-20 mt-2">Aromatherapy</p>
             </div>
 
             <div className='flex w-full flex-col'>
-              <p className="regular-16 text-gray-20">Start track</p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">Wonorejo Pasuruan</h4>
+              <p className="regular-16 text-gray-20">Cold Stone</p>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Mini cold stone face massage</h4>
             </div>
           </div>
         </div>

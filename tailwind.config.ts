@@ -10,8 +10,8 @@ module.exports = {
       colors: {
         purple: {
           30: "#5e45f5",
-          50: "#4a31de",
-          90: "#270ec2",
+          50: "#A020F0",
+          90: "#A020F0",
         },
         gray: {
           10: "#EEEEEE",

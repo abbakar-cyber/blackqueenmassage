@@ -4,10 +4,9 @@ import Button from './Button'
 const Hero = () => {
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
-      
-
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+      
         <h1 className="bold-52 lg:bold-88 ">Black Queen Massage and Escort</h1>
         <p className="regular-16 mt-6  xl:max-w-[520px]">
           Black Queen Massage and Escort offers expert massage, 
@@ -36,7 +35,8 @@ const Hero = () => {
         </div>
 
               <div>
-                <span className='text-purple-90 text-2xl'>Massage Services*</span>
+                <span className='text-purple-90 text-2xl'>MASSAGE SERVICES*</span>
+                <p>Choose from: Swedish, Deep tissue, Trigger point, Sports, Prenatal and More:</p>
                 <ul className='list-disc ml-8'>
                   <li>MASSAGE (1 Hours)</li>
                   <li>MASSAGE (1.5 Hours)</li>
@@ -46,10 +46,18 @@ const Hero = () => {
                   <li>COUPLES MASSAGE (1.5 Hours)</li>
                   <li>COLD STONE FACE MASSAGE (30min.)</li>
                 </ul>
+                <span className='text-purple-90 text-2xl'>MASSAGE ENHANCEMENTS*</span>
+                <ul className='list-disc ml-8'>
+                  <li>HOT TOWEL FOOT TREATMENT</li>
+                  <li>HOT TOWEL HAND TREATMENT</li>
+                  <li>PEPPERMINT SCALP MASSAGE</li>
+                  <li>MINI COLD STONE FACE MASSAGE</li>
+                  <li>AROMATHERAPY</li>
+                </ul>
               </div>
        
       </div>
-    </section>
+  </section>
   )
 }
 

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container  z-30 py-5 relative">
       <Link href="/">
-        <Image src="/bqms-logo.svg" alt="logo" width={90} height={29} />
+        <Image src="/bqms-logo.png" alt="logo" width={90} height={29} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">
@@ -21,12 +21,17 @@ const Navbar = () => {
       <div className="lg:flexCenter hidden">
         <Button 
           type="button"
-          title="Login"
-          icon="/user.svg"
+          title="Book Appiontment"
           variant="btn_dark_purple"
         />
       </div>
-
+      <div className=" ">
+        <Button 
+          type="button"
+          title="Book Appiontment"
+          variant="btn_dark_purple"
+        />
+      </div>
       <Image 
         src="menu.svg"
         alt="menu"
