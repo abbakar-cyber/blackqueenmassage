@@ -20,21 +20,21 @@ export const FEATURES = [
     icon: '/map.svg',
     variant: 'green',
     description:
-      'Few contents here',
+      'A very good treatment that includes extractions, a mask cleansing and a gentle massage. We offer Classic or Teen.',
   },
   {
     title: '1 Hour Exceptional facial',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "A noninvasive skin treatment that includes cleansing, moisturizing, exfoliating, etc... This helps to renew skin cells by circulating the blood flow under skin, which then can decrease puffiness and fluid build up that comes from lymphatic system. We offer Anti-aging collagex facial, De-tox facial, Rejuvenating facial, Rosacea facial and Sensitive Skin facial.",
   },
   {
     title: '1 Hour Exceptional Exfoliation',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'The process of removing dead skin cells from the outer layer of your skin. This Improves the appearance of the skin. we offer lactic Peel Exfoliation, Salicylic peel Exfoliation,Glycolic Peel Exfoliation aand MicroDermaBration.',
   },
   {
     title: '30-Minute Skin treatments',

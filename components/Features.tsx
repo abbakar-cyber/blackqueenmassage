@@ -20,6 +20,10 @@ const Features = () => {
           <div className='relative'>
             
             <h2 className="bold-40 lg:bold-64">Facial Services</h2>
+            <p>Performed by our licensed estheticians, our facials are designed to improve
+              the health and appearance of your skin and deliver powerful, result-driven benefits, resulting in smooth
+              ,youthful, radiant appearance.
+            </p>
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
             {FEATURES.map((feature) => (
