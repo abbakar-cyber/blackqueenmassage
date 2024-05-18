@@ -27,14 +27,14 @@ export const FEATURES = [
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'The process of removing dead skin cells from the outer layer of your skin. This Improves the appearance of the skin. we offer lactic Peel Exfoliation, Salicylic peel Exfoliation,Glycolic Peel Exfoliation aand MicroDermaBration.',
+      'The process of removing dead skin cells from the outer layer of your skin. This Improves the appearance of the skin. we offer lactic Peel Exfoliation, Salicylic peel Exfoliation,Glycolic Peel Exfoliation and MicroDermaBration.',
   },
   {
     title: '30-Minute Skin treatments',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Skin treatment is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions. They include Express Facial, Lactic Peel, Salicylic Peel, Glycolic Peel, Microzone and Mini-Microdermabrasion',
   },
 ];
 
@@ -44,7 +44,6 @@ export const FOOTER_LINKS = [
     title: 'Learn More',
     links: [
       'About Us',
-      
       'Contact Us',
     ],
   },
@@ -68,4 +67,5 @@ export const SOCIALS = {
     '/youtube.svg',
     
   ],
+ 
 };

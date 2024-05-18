@@ -35,7 +35,16 @@ const Features = () => {
               />
             ))}
           </ul>
+         <div className='py-10'>
+         <span className='bold-40 lg:bold-64'>Additional Enhancements*</span> 
+         <ul className='list-disc ml-8 mt-4'>
+            <li>Eye And Lip Treatment</li>
+            <li>Hot Towel Foot Treatment</li>
+            <li>Peppermint Scalp Massage</li>
+          </ul>
+         </div>
         </div>
+       
       </div>
     </section>
   )
