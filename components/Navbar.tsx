@@ -28,7 +28,7 @@ const Navbar = () => {
               <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2'>Services</Link>
               <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2'>About</Link>
               <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2'>Contact Us</Link>
-              <button className=' bg-purple-90 text-white px-16 py-2 rounded'>Book Now</button>
+              <button className=' bg-purple-90 text-white px-16 py-2 rounded '>Book Now</button>
             </div>
           </div>
           <div className='md:hidden flex items-center'>
@@ -72,6 +72,7 @@ const Navbar = () => {
               <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2'>Services</Link>
               <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2'>About</Link>
               <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2'>Contact Us</Link>
+              <button className=' bg-purple-90 text-white px-16 py-2 rounded '>Book Now</button>
                 </div>
               </div>
             )}
