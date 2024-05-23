@@ -16,6 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
+        </head>
       <body>
         <Navbar />
         <main className="relative overflow-hidden">
