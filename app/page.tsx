@@ -3,6 +3,7 @@ import Cards from "@/components/Cards";
 import Features from "@/components/Features";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
+import LastMinuteDeals from "@/components/LastMinuteDeals";
 import Offers from "@/components/Offers";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <Offers />
       <Cards />
+      <LastMinuteDeals />
       
     </>
   )
