@@ -54,7 +54,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Admin Officer', value: '+1 786-991-9540' },
-    { label: 'Email Officer', value: 'cadettravels@coder' },
+    { label: 'Email Officer', value: 'taylormarry482@gmail.com' },
   ],
 };
 
@@ -64,7 +64,7 @@ export const SOCIALS = {
     '/facebook.svg',
     '/instagram.svg',
     '/twitter.svg',
-    '/youtube.svg',
+    
     
   ],
  

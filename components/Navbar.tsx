@@ -10,6 +10,10 @@ const Navbar = () => {
         const toggleNavbar = () =>{
           setisClick(!isClick)
         }
+        const phoneNumber = "+17869919540";
+        const handleTextMessage = () =>{
+          window.location.href= `sms:${phoneNumber}`
+        }
 
   return (
     <nav className=''>
@@ -24,11 +28,11 @@ const Navbar = () => {
           </div>
           <div className='hidden md:block'>
             <div className='ml-4 flex items-center space-x-4 '>
-              <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2'>Home</Link>
-              <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2'>Services</Link>
-              <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2'>About</Link>
-              <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2'>Contact Us</Link>
-              <button className=' bg-purple-90 text-white px-16 py-2 rounded '>Book Now</button>
+              <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2 transition ease-in-out duration-700'>Home</Link>
+              <Link href='/' className='hover:text-white hover:bg-purple-90 rounded-lg p-2 transition ease-in-out duration-700'>Services</Link>
+              <Link href='https://www.facebook.com/profile.php?id=100075464952716&mibextid=LQQJ4d' className='hover:text-white hover:bg-purple-90 rounded-lg p-2 transition ease-in-out duration-700'>About</Link>
+              <Link href='https://www.facebook.com/profile.php?id=100075464952716&mibextid=LQQJ4d' className='hover:text-white hover:bg-purple-90 rounded-lg p-2 transition ease-in-out duration-700'>Contact Us</Link>
+              <button className=' bg-purple-90 text-white px-16 py-2 rounded transform hover:scale-125 transition ease-in-out duration-700' onClick={handleTextMessage}>Book Now</button>
             </div>
           </div>
           <div className='md:hidden flex items-center'>
@@ -67,12 +71,12 @@ const Navbar = () => {
       </div>
             {isClick && (
               <div className='md:hidden'>
-                <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3 mt-20'>
-                <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2'>Home</Link>
-              <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2'>Services</Link>
-              <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2'>About</Link>
-              <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2'>Contact Us</Link>
-              <button className=' bg-purple-90 text-white px-16 py-2 rounded '>Book Now</button>
+                <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3 mt-20 '>
+                <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2 transition ease-out duration-700'>Home</Link>
+              <Link href='/' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2 transition ease-out duration-700'>Services</Link>
+              <Link href='https://www.facebook.com/profile.php?id=100075464952716&mibextid=LQQJ4d' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2 transition ease-out duration-700'>About</Link>
+              <Link href='https://www.facebook.com/profile.php?id=100075464952716&mibextid=LQQJ4d' className='hover:text-white block hover:bg-purple-90 rounded-lg p-2 transition ease-out duration-700'>Contact Us</Link>
+              <button className=' bg-purple-90 text-white px-16 py-2 rounded transform hover:scale-100 transition ease-out duration-700' onClick={handleTextMessage}>Book Now</button>
                 </div>
               </div>
             )}
