@@ -35,7 +35,7 @@ const Features = () => {
               />
             ))}
           </ul>
-         <div className='py-10'>
+         <div className='py-10 lg:mb-32'>
          <span className='bold-40 lg:bold-64'>Additional Enhancements*</span> 
          <ul className='list-disc ml-8 mt-4'>
             <li>Eye And Lip Treatment</li>
