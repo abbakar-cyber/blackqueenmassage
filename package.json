@@ -7,14 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export" : "next build && next export"
+    "export": "next build && next export"
   },
   "dependencies": {
     "@next/font": "^14.2.3",
     "font": "^0.0.4",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "sharp": "^0.33.4"
   },
   "devDependencies": {
