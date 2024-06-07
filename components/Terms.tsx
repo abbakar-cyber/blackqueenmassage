@@ -29,6 +29,17 @@ const Terms = () => {
                 My after hour fee is $25 between the hours of 7am-6pm.
                 I do accept foreign fills! My foreign fill fee is $25.
         </p>
+            <div className="flex items-center mb-4">
+                <input
+                id="agree"
+                type="checkbox"
+                className="form-checkbox h-5 w-5 text-purple-600"
+                
+                    />
+                <label htmlFor="agree" className="ml-2 ">
+                I agree to the terms and conditions
+                </label>
+                </div>
       </div>
     );
   };
