@@ -14,7 +14,6 @@ export default function Home() {
     <>
       <Hero />
       <Camp />
-      <Terms />
       <Guide />
       <VideoPlayer />
       <Features />
@@ -22,6 +21,7 @@ export default function Home() {
       <Cards />
       <LastMinuteDeals />
       <NewService />
+      <Terms />
       
     </>
   )
