@@ -6,8 +6,8 @@ const Terms = () => {
           Welcome to our application. Please read these terms and conditions carefully
           before using our services.
         </p>
-        <p><strong className="bold-32 ">DEPOSITS APPOINTMENTS CANCELLATIONS REFUND:</strong>
-            A non-refundable,
+        <strong className="bold-32 ">DEPOSITS APPOINTMENTS CANCELLATIONS REFUND:</strong>
+        <p>A non-refundable,
         You must reschedule,
         There are no deposit of $25 is 24 hours in advanced. hours in advance to refunds once
         required to book. If you are running transfer your deposit service is rendered. This deposit will go
@@ -18,8 +18,8 @@ const Terms = () => {
         cancelled. declining will result in get them fixed at a new appointment No call No shows must being banned from
         the earliest when rescheduling.pay 100% of set price booking unless you pay connivence.
         </p>
-        <p><strong className="font-bold text-2xl ">BEFORE YOU VISIT</strong>
-                No public restroom! Please use the bathroom prior to your appointment.
+        <strong className="font-bold text-2xl ">BEFORE YOU VISIT</strong>
+        <p>No public restroom! Please use the bathroom prior to your appointment.
                 No kids or plus ones! Space is limited.
                 Please silence your phone or set on Do Not Disturb prior to service.
                 Cell phones are a distraction, please bring Air Pods for important calls.
