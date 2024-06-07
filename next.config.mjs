@@ -2,6 +2,7 @@
 
 export default {
   output: 'export',
+  ditDir: 'out',
   images: {
     unoptimized: true,
   },
