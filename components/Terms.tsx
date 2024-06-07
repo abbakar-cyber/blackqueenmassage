@@ -7,7 +7,7 @@ const Terms = () => {
           before using our services.
         </p>
         <strong className="bold-32 ">DEPOSITS APPOINTMENTS CANCELLATIONS REFUND:</strong>
-        <p>A non-refundable,
+        <p className="text-gray-500">A non-refundable,
         You must reschedule,
         There are no deposit of $25 is 24 hours in advanced. hours in advance to refunds once
         required to book. If you are running transfer your deposit service is rendered. This deposit will go
@@ -19,7 +19,7 @@ const Terms = () => {
         the earliest when rescheduling.pay 100% of set price booking unless you pay connivence.
         </p>
         <strong className="font-bold text-2xl ">BEFORE YOU VISIT</strong>
-        <p>No public restroom! Please use the bathroom prior to your appointment.
+        <p className="text-gray-500">No public restroom! Please use the bathroom prior to your appointment.
                 No kids or plus ones! Space is limited.
                 Please silence your phone or set on Do Not Disturb prior to service.
                 Cell phones are a distraction, please bring Air Pods for important calls.
