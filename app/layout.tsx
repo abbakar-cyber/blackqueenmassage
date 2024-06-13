@@ -28,11 +28,11 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
         </head>
       <body className={roboto.className}>
-        <Navbar />
+        
         <main className="relative overflow-hidden">
           {children}
         </main>
-        <Footer />
+        
       </body>
     </html>
   )
