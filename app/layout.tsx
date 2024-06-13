@@ -27,9 +27,9 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
         <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
         </head>
-      <body className={roboto.className}>
+      <body className={roboto.className} >
         
-        <main className="relative overflow-hidden">
+        <main className="relative overflow-hidden bg-gray-700">
           {children}
         </main>
         
