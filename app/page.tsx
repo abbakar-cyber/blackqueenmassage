@@ -8,12 +8,21 @@ import Offers from "@/components/Offers";
 import NewService from "@/components/NewService";
 import VideoPlayer from "@/components/VideoPlayer"
 import Terms from "@/components/Terms";
-import Warning from "@/components/Warning";
+
 
 export default function Home() {
   return (
     <>
-      <Warning />
+      <Hero/>
+      <Camp/>
+      <Guide/>
+      <Cards/>
+            <Features/>
+      <Offers/>
+      <VideoPlayer/>
+      <LastMinuteDeals/>
+      <NewService/>
+      <Terms/>
       
     </>
   )
